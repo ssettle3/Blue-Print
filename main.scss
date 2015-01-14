@@ -11,7 +11,7 @@
 	border: 7px solid #53BFF3;
 	border-radius: 100%;
 	position: absolute;
-	margin-left: 85px;
+	margin-left: 115px;
 }
 h1{
 	border-bottom: 1px solid white;
@@ -22,6 +22,7 @@ h1{
 h2{
 	color: #53BFF3;
 	font-size: 40px;	
+	padding-right: 30px;
 }
 h3{
 	color: lightgray;
@@ -44,6 +45,7 @@ h3{
 	border-radius: 5px;
 	float: left;
 	margin: 10px;
+	margin-left: 20px;
 	padding-right: 50px;
 	padding-left: 50px;
 	position: relative;
@@ -54,10 +56,9 @@ h3{
 	height: 0;
 	border-style: solid;
 	border-width: 10px 17.3px 10px 0;
-	border-color: transparent #66a3e3 transparent transparent;
+	border-color: transparent #0092D0 transparent transparent;
 	position: absolute;
-	margin-left: -66px;
-	margin-bottom: -50px;
+	margin-left: -62px;
 }
 .botleft-sb{
 	clear: both;
@@ -77,13 +78,15 @@ h3{
 	padding-left: 50px;
 	float: left;
 	margin: 10px;
+	margin-left: 20px;
 }
-
-.top-box:hover{
-	background-color: #53BFF3;
-	cursor: pointer
-}
-.bot-box:hover{
-	background-color: #53BFF3;
-	cursor: pointer
+.bot-box:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 17.3px 10px 0;
+	border-color: transparent #0092D0 transparent transparent;
+	position: absolute;
+	margin-left: -62px;
 }
