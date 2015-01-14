@@ -23,11 +23,13 @@ h2{
 	color: #53BFF3;
 	font-size: 40px;	
 	padding-right: 30px;
+	margin-top: 0;
 }
 h3{
+	display: inline-block;
 	color: lightgray;
 	font-size: 12px;
-	text-align: right;
+	padding-left: 55px;
 }
 .topleft-sb{
 	float: left;
